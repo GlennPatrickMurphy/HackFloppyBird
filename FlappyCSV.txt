@@ -1,0 +1,6 @@
+{ "index": { "_type": "users", "_id": "mayu911" } }
+{ "name": "mayu","email":"mayu@svrobotics","school":"dumbschool","phone_number": "911","first_score":"10","second_score":"15"}
+{ "index": { "_type": "users", "_id": "mayu911" } }
+{ "name": "mayu","email":"mayu@svrobotics","school":"dumbschool","phone_number": "911","first_score":"10","second_score":"15"}
+{ "index": { "_type": "users", "_id": "glenn911" } }
+{ "name": "mayu","email":"mayu@svrobotics","school":"dumbschool","phone_number": "911","first_score":"10","second_score":"15"}
