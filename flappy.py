@@ -6,20 +6,14 @@ import pygame
 from pygame.locals import *
 import pygbutton.pygbutton as pygbutton
 import api
-from pillow import ImageFont
-
-font = ImageFont.truetype('times.ttf', 12)
-size = font.getsize('Hello world')
-print(size)
 
 pygame.init()
 
 COLOR_INACTIVE = pygame.Color('white')
 COLOR_ACTIVE = pygame.Color('black')
 COLOR_MISSED = pygame.Color('red')
+COLOR_CURSOR = pygame.Color('firebrick')
 
-FONT = pygame.font.Font(None, 32)
-sFONT = pygame.font.Font(None, 20)
 FPS = 30
 SCREENWIDTH  = 288
 SCREENHEIGHT = 512
@@ -34,7 +28,7 @@ smallFont = 0
 
 playerFlapAcc = -9  # players speed on flapping
 playerMaxVelY = 10  # max vel along Y, max descend speed
-playerRot = 45  # player's rotationG
+pipeVelX = -4
 playerVelRot = 3  # angular speed
 
 # list of all possible players (tuple of 3 positions of flap)
@@ -85,9 +79,9 @@ class InputBox:
         self.color = COLOR_INACTIVE
         self.textcolor = COLOR_INACTIVE
         self.fillcolor = COLOR_ACTIVE
+        self.cursor_color = COLOR_CURSOR
         self.text = text
         self.placeholder = text
-        self.txt_surface = FONT.render(text, True, self.textcolor)
         self.active = False
         self.clear_txt = True
         self.revert = False
@@ -99,9 +93,12 @@ class InputBox:
         self.length = 0
         self.screen_cursor = 0
         self.clock = pygame.time.Clock()
-
+        self.FONT = pygame.font.Font(None, self.font_size)
+        self.txt_surface = self.FONT.render(text, True, self.textcolor)
 
     def handle_event(self, event):
+
+        hello = self.FONT.size(self.text)[0]
         if event.type == pygame.MOUSEBUTTONDOWN:
             # If the user clicked on the input_box rect.
             if self.rect.collidepoint(event.pos):
@@ -123,6 +120,8 @@ class InputBox:
                 elif event.key == pygame.K_BACKSPACE:
                     self.text = self.text[:-1]
                     self.cursor -= 1
+                    if self.FONT.size(self.text)[0] < 195 and self.font_size < 32:
+                        self.font_size += 1
                 else:
                     self.text += event.unicode
                 if self.bgcolor:
@@ -131,23 +130,20 @@ class InputBox:
                     if event.key == pygame.K_DOWN:
                         self.offset -= 1
 
-                if (len(self.text)*self.font_size) > 450:
-                    self.font_size -= 2
-
-                if 400 < (len(self.text)*self.font_size) < 450:
-                    self.font_size += 2
+                if self.FONT.size(self.text)[0] > 195:
+                    self.font_size -= 1
 
             if not self.bgcolor:
-                FONT_change = pygame.font.Font(None, self.font_size)
+                self.FONT = pygame.font.Font(None, self.font_size)
                 # Re-render the text.
-                self.txt_surface = FONT_change.render(self.text, True, self.textcolor)
+                self.txt_surface = self.FONT.render(self.text, True, self.textcolor)
 
                 self.revert = True
             else:
-                self.txt_surface = FONT.render(self.text, True, self.textcolor)
+                self.txt_surface = self.FONT.render(self.text, True, self.textcolor)
 
         if self.text == '' and self.revert and not self.active:
-            self.txt_surface = FONT.render(self.placeholder, True, self.textcolor)
+            self.txt_surface = self.FONT.render(self.placeholder, True, self.textcolor)
             self.clear_txt = True
             self.revert = False
 
@@ -170,15 +166,15 @@ class InputBox:
         screen.blit(self.txt_surface, (self.rect.x+5, self.rect.y+5))
         if int(pygame.time.get_ticks()/500) % 2 == 0 and self.active:
             for x in range(0, 5):
-                screen.blit(FONT.render("|", True, self.textcolor),
-                            (len(self.text)*self.font_size, self.rect.y))
+                screen.blit(self.FONT.render("_", True, self.cursor_color),
+                            (self.FONT.size(self.text)[0] + self.rect.x + 5, self.rect.y + 5))
 
         self.clock.tick(30)
 
 def main():
     global SCREEN, FPSCLOCK
     FPSCLOCK = pygame.time.Clock()
-    SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
+    SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT), pygame.FULLSCREEN)
     # SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT), pygame.FULLSCREEN)
     pygame.display.set_caption('Flappy Bird')
 
@@ -186,10 +182,10 @@ def main():
     global mediumFont
     global smallFont
 
-    global playerFlapAcc,playerMaxVelY,playerRot,playerVelRot
+    global playerFlapAcc,playerMaxVelY,pipeVelX,playerVelRot
     playerFlapAcc = -9  # players speed on flapping
     playerMaxVelY = 10
-    playerRot = 45  # player's rotation
+    pipeVelX = -4
     playerVelRot = 3  # angular speed
 
     largeFont = pygame.font.Font(
@@ -222,7 +218,7 @@ def main():
     IMAGES['message'] = pygame.image.load('assets/sprites/message.png').convert_alpha()
     # base (ground) sprite
     IMAGES['base'] = pygame.image.load('assets/sprites/base.png').convert_alpha()
-
+    IMAGES['terminal'] = pygame.image.load('assets/sprites/TerminalBar_size.png').convert_alpha()
     # sounds
     if 'win' in sys.platform:
         soundExt = '.wav'
@@ -269,10 +265,29 @@ def main():
         )
 
         movementInfo = showWelcomeAnimation()
+
+        payload = {'name': movementInfo['name'],
+                   'email': movementInfo['email'],
+                   'phone_number': movementInfo['phone'],
+                   'school': movementInfo['school']
+                   }
+
+        key = payload['name']+payload['phone_number']
+
         crashInfo = mainGame(movementInfo)
+
+        payload['first_score'] = crashInfo['score']
+
         showNextScreen(crashInfo)
+
         movementInfo = showChooseVariableAnimation()
+
         crashInfo = mainGame(movementInfo)
+
+        payload['second_score'] = crashInfo['score']
+
+        api.Api(payload, key)
+
         showGameOverScreen(crashInfo)
 
 
@@ -298,8 +313,8 @@ def showWelcomeAnimation():
     playerShmVals = {'val': 0, 'dir': 1}
 
     input_box1 = InputBox(50, 150, 50, 32, 'Full Name')
-    input_box2 = InputBox(50, 200, 140, 32, 'Email')
-    input_box3 = InputBox(50, 250, 140, 32, 'Phone Number')
+    input_box2 = InputBox(50, 200, 140, 32, 'Parents Email')
+    input_box3 = InputBox(50, 250, 140, 32, 'Home Phone #')
     input_box4 = InputBox(50, 300, 140, 32, 'School')
     input_boxes = [input_box1, input_box2, input_box3, input_box4]
     buttonObj = pygbutton.PygButton((100, 350, 100, 30), 'Start')
@@ -314,11 +329,11 @@ def showWelcomeAnimation():
                     if box.text == box.placeholder:
                         box.color = COLOR_MISSED
                         missed = True
-                    if box.placeholder == "Phone Number":
+                    if box.placeholder == "Home Phone #":
                         if not any(char.isdigit() for char in box.text):
                             box.color = COLOR_MISSED
                             missed = True
-                    if box.placeholder == "Email":
+                    if box.placeholder == "Parents Email":
                         if not box.text.__contains__("@"):
                             box.color = COLOR_MISSED
                             missed = True
@@ -329,6 +344,10 @@ def showWelcomeAnimation():
                         'playery': playery + playerShmVals['val'],
                         'basex': basex,
                         'playerIndexGen': playerIndexGen,
+                        'name':input_box1.text,
+                        'email':input_box2.text,
+                        'phone':input_box3.text,
+                        'school':input_box4.text
                     }
 
             for box in input_boxes:
@@ -348,7 +367,7 @@ def showWelcomeAnimation():
         SCREEN.blit(IMAGES['background'], (0, 0))
         SCREEN.blit(IMAGES['player'][playerIndex],
                     (playerx+50, playery - 150 + playerShmVals['val']))
-        SCREEN.blit(largeFont.render('Hack Floppy', 0, (255, 240, 230)), (10, 10))
+        SCREEN.blit(largeFont.render('Hack Floppy', 0, COLOR_ACTIVE), (10, 10))
         SCREEN.blit(IMAGES['base'], (basex, BASEY))
         buttonObj.draw(SCREEN)  # where DISPLAYSURFACE was the Surface object returned from pygame.display.set_mode()
         for box in input_boxes:
@@ -379,8 +398,8 @@ def birdFallSpeed(text):
         value = int(text)
         if value < 1:
             value = 1
-        elif value > 8:
-            value = 8
+        elif value > 20:
+            value = 20
         playerMaxVelY = value
     return
 
@@ -398,16 +417,16 @@ def birdSpinSpeed(text):
     return
 
 
-def birdSpinAmount(text):
-    global playerRot
+def birdGroundSpeed(text):
+    global pipeVelX
 
     if text.isdigit():
         value = int(text)
-        if value < 20:
-            value = 20
-        elif value > 65:
-            value = 65
-        playRot = value
+        if value < 1:
+            value = 1
+        elif value > 6:
+            value = 6
+        pipeVelX = -value
     return
 
 
@@ -418,7 +437,7 @@ def showChooseVariableAnimation():
     playerIndexGen = cycle([0, 1, 2, 1])
     # iterator used to change playerIndex after every 5th iteration
     loopIter = 0
-
+    sFONT = pygame.font.Font(None, 20)
     playerx = int(SCREENWIDTH * 0.2)
     playery = int((SCREENHEIGHT - IMAGES['player'][0].get_height()) / 2)
 
@@ -429,45 +448,43 @@ def showChooseVariableAnimation():
     # amount by which base can maximum shift to left
     baseShift = IMAGES['base'].get_width() - IMAGES['background'].get_width()
 
-    global playerRot, playerVelRot, playerMaxVelY, playerFlapAcc
+    global pipeVelX, playerVelRot, playerMaxVelY, playerFlapAcc
     playerVelY    =  -9 # player's velocity along Y, default same as playerFlapped
     playerMinVelY =  -8 # min vel along Y, max ascend speed
     playerRotThr  =  20   # rotation threshold
     playerFlapAcc =  -9  # players speed on flapping
     playerFlapped = False # True when player flaps
     playerAccY = 1  # players downward accleration
+    playerRot = 45  # rotation threshold
 
-    buttonObj1 = pygbutton.PygButton((25, 350, 110, 30), 'JumpSpeed')
-    buttonObj2 = pygbutton.PygButton((25, 400, 110, 30), 'FallSpeed')
-    buttonObj3 = pygbutton.PygButton((150, 350, 110, 30), 'SpinSpeed')
-    buttonObj4 = pygbutton.PygButton((150, 400, 110, 30), 'SpinAmount')
 
-    startButton = pygbutton.PygButton((85, 450, 100, 30), 'Start')
-    buttons = {buttonObj1: [birdJumpSpeed, 0],
-               buttonObj2: [birdFallSpeed, 1],
-               buttonObj3: [birdSpinSpeed, 2],
-               buttonObj4: [birdSpinAmount, 3]}
+    fill_box = InputBox(0, 350, 288, 300, '', True)
+    input_box1 = InputBox(160, 355, 40, 32, '9', True)
+    input_box2 = InputBox(155, 390, 40, 32, '10', True)
+    input_box3 = InputBox(165, 425, 40, 32, '3', True)
+    input_box4 = InputBox(175, 460, 40, 32, '4', True)
 
-    input_box1 = InputBox(40, 300, 140, 32, '9')
-    input_box2 = InputBox(40, 300, 140, 32, '3')
-    input_box3 = InputBox(40, 300, 140, 32, '3')
-    input_box4 = InputBox(40, 300, 140, 32, '45')
-    input_boxes = [input_box1, input_box2, input_box3, input_box4]
+    boxes = {input_box1: [birdJumpSpeed, 0],
+               input_box2: [birdFallSpeed, 1],
+               input_box3: [birdSpinSpeed, 2],
+               input_box4: [birdGroundSpeed, 3]}
 
     text_warning = ['Choose Value between 5 and 15',
-                    'Choose Value between 1 and 8',
+                    'Choose Value between 1 and 20',
                     'Choose Value between 1 and 5',
-                    'Choose Value between 20 and 60']
+                    'Choose Value between 1 and 6']
 
     warning = False
     text_box = False
     function = False
+
     while True:
+
         for event in pygame.event.get():
             if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
                 pygame.quit()
                 sys.exit()
-            if 'click' in startButton.handleEvent(event):
+            if event.type == KEYDOWN and event.key == K_y:
                 SOUNDS['wing'].play()
                 return {
                     'playery': playery,
@@ -475,127 +492,17 @@ def showChooseVariableAnimation():
                     'playerIndexGen': playerIndexGen,
                 }
 
-            for box in input_boxes:
+            for box, list_ in boxes.items():
                 box.handle_event(event)
-
-            for button, list_ in buttons.items():
-                button._propSetBgColor((212, 208, 200))
-                if 'click' in button.handleEvent(event):
-                    text_box = input_boxes[list_[1]]
+                if box.active:
                     warning = text_warning[list_[1]]
-                    function = list_[0]
+                function = list_[0]
+                if function:
+                    function(box.text)
 
-
-        if function:
-            function(text_box.text)
-
-        for box in input_boxes:
+        for box in boxes:
             box.update()
 
-        # adjust playery, playerIndex, basex
-        if (loopIter + 1) % 5 == 0:
-            playerIndex = next(playerIndexGen)
-        loopIter = (loopIter + 1) % 30
-        basex = -((-basex + 4) % baseShift)
-
-        # rotate the player
-        if playerRot > -90:
-            playerRot -= playerVelRot
-
-        # player's movement
-        if playerVelY < playerMaxVelY and not playerFlapped:
-            playerVelY += playerAccY
-        if playerFlapped:
-            playerFlapped = False
-
-            # more rotation to cover the threshold (calculated in visible rotation)
-            playerRot = 45
-
-        playerHeight = IMAGES['player'][playerIndex].get_height()
-        playery += min(playerVelY, BASEY - playery - playerHeight)
-
-        if playery > 250:
-            playerVelY = playerFlapAcc
-            playerFlapped = True
-
-        # Player rotation has a threshold
-        visibleRot = playerRotThr
-        if playerRot <= playerRotThr:
-            visibleRot = playerRot
-
-        playerSurface = pygame.transform.rotate(IMAGES['player'][playerIndex], visibleRot)
-
-        # draw sprites
-        SCREEN.blit(IMAGES['background'], (0, 0))
-        SCREEN.blit(largeFont.render('Change', 0, (255, 240, 230)), (60, 10))
-        SCREEN.blit(largeFont.render('variables', 0, (255, 240, 230)), (40, 60))
-        if warning:
-            SCREEN.blit(sFONT.render(warning, 0, (255, 240, 230)), (45, 335))
-        SCREEN.blit(IMAGES['base'], (basex, BASEY))
-        SCREEN.blit(playerSurface, (playerx, playery))
-        for buttonObj in buttons:
-            buttonObj.draw(SCREEN)  # where DISPLAYSURFACE was the Surface object returned from pygame.display.set_mode()
-        if text_box:
-            text_box.draw(SCREEN)
-        startButton.draw(SCREEN)
-        pygame.display.update()
-        FPSCLOCK.tick(FPS)
-
-
-def showChooseVariableAnimation():
-    """Shows welcome screen animation of flappy bird"""
-    # index of player to blit on screen
-    playerIndex = 0
-    playerIndexGen = cycle([0, 1, 2, 1])
-    # iterator used to change playerIndex after every 5th iteration
-    loopIter = 0
-
-    playerx = int(SCREENWIDTH * 0.2)
-    playery = int((SCREENHEIGHT - IMAGES['player'][0].get_height()) / 2)
-
-    messagex = int((SCREENWIDTH - IMAGES['message'].get_width()) / 2)
-    messagey = int(SCREENHEIGHT * 0.12)
-
-    basex = 0
-    # amount by which base can maximum shift to left
-    baseShift = IMAGES['base'].get_width() - IMAGES['background'].get_width()
-
-    global playerRot, playerVelRot, playerMaxVelY, playerFlapAcc
-    playerVelY    =  -9 # player's velocity along Y, default same as playerFlapped
-    playerMinVelY =  -8 # min vel along Y, max ascend speed
-    playerRotThr  =  20   # rotation threshold
-    playerFlapAcc =  -9  # players speed on flapping
-    playerFlapped = False # True when player flaps
-    playerAccY = 1  # players downward accleration
-
-    input_box1 = InputBox(0, 300, 800, 1000, '9', True)
-
-    text_warning = ['Choose Value between 5 and 15',
-                    'Choose Value between 1 and 8',
-                    'Choose Value between 1 and 5',
-                    'Choose Value between 20 and 60']
-
-    warning = False
-    text_box = False
-    function = False
-    test = False
-    while True:
-        for event in pygame.event.get():
-            if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
-                pygame.quit()
-                sys.exit()
-
-            if test:
-                SOUNDS['wing'].play()
-                return {
-                    'playery': playery,
-                    'basex': basex,
-                    'playerIndexGen': playerIndexGen,
-                }
-
-            input_box1.handle_event(event)
-
-        input_box1.update()
 
         # adjust playery, playerIndex, basex
         if (loopIter + 1) % 5 == 0:
@@ -632,13 +539,21 @@ def showChooseVariableAnimation():
 
         # draw sprites
         SCREEN.blit(IMAGES['background'], (0, 0))
-        SCREEN.blit(largeFont.render('Change', 0, (255, 240, 230)), (60, 10))
-        SCREEN.blit(largeFont.render('variables', 0, (255, 240, 230)), (40, 60))
-        if warning:
-            SCREEN.blit(sFONT.render(warning, 0, (255, 240, 230)), (45, 335))
+        SCREEN.blit(largeFont.render('Change', 0, COLOR_ACTIVE), (60, 10))
+        SCREEN.blit(largeFont.render('variables', 0, COLOR_ACTIVE), (40, 60))
         SCREEN.blit(IMAGES['base'], (basex, BASEY))
+        fill_box.draw(SCREEN)
+        SCREEN.blit(sFONT.render('birdJumpSpeed   = ', 0, (255, 240, 230)), (45, 365))
+        SCREEN.blit(sFONT.render('birdFallSpeed    = ', 0, (255, 240, 230)), (45, 400))
+        SCREEN.blit(sFONT.render('birdSpinSpeed    = ', 0, (255, 240, 230)), (45, 435))
+        SCREEN.blit(sFONT.render('birdGroundSpeed   = ', 0, (255, 240, 230)), (45, 470))
+        SCREEN.blit(sFONT.render('Press Y to Run Game', 0, (255, 240, 230)), (45, 500))
+        for box in boxes:
+            box.draw(SCREEN)
         SCREEN.blit(playerSurface, (playerx, playery))
-        input_box1.draw(SCREEN)
+        SCREEN.blit(IMAGES['terminal'], (0, 318))
+        if warning:
+            SCREEN.blit(sFONT.render(warning, 0, (255, 240, 230)), (45, 300))
         pygame.display.update()
         FPSCLOCK.tick(FPS)
 
@@ -667,22 +582,21 @@ def mainGame(movementInfo):
         {'x': SCREENWIDTH + 200 + (SCREENWIDTH / 2), 'y': newPipe2[1]['y']},
     ]
 
-    pipeVelX = -4
-    global playerRot, playerVelRot, playerMaxVelY, playerFlapAcc
+    global pipeVelX, playerVelRot, playerMaxVelY, playerFlapAcc
     # player velocity, max velocity, downward accleration, accleration on flap
     playerVelY    =  -9 # player's velocity along Y, default same as playerFlapped
     playerMinVelY =  -8 # min vel along Y, max ascend speed
     playerRotThr  =  20   # rotation threshold
     playerAccY = 1  # players downward accleration
     playerFlapped = False # True when player flaps
-
+    playerRot = 45  # player's rotationG
 
     while True:
         for event in pygame.event.get():
             if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
                 pygame.quit()
                 sys.exit()
-            if event.type == KEYDOWN and (event.key == K_SPACE or event.key == K_UP):
+            if event.type == KEYDOWN:
                 if playery > -2 * IMAGES['player'][0].get_height():
                     playerVelY = playerFlapAcc
                     playerFlapped = True
@@ -764,7 +678,7 @@ def mainGame(movementInfo):
         visibleRot = playerRotThr
         if playerRot <= playerRotThr:
             visibleRot = playerRot
-        
+
         playerSurface = pygame.transform.rotate(IMAGES['player'][playerIndex], visibleRot)
         SCREEN.blit(playerSurface, (playerx, playery))
         pygame.display.update()
@@ -831,7 +745,7 @@ def showNextScreen(crashInfo):
 
         playerSurface = pygame.transform.rotate(IMAGES['player'][1], playerRot)
         SCREEN.blit(playerSurface, (playerx,playery))
-        SCREEN.blit(mediumFont.render('Time to Hack', 0, (255, 240, 230)), (50, 180))
+        SCREEN.blit(mediumFont.render('Time to Hack', 0, COLOR_ACTIVE), (50, 180))
         buttonObj.draw(SCREEN)
 
         FPSCLOCK.tick(FPS)
@@ -893,6 +807,8 @@ def showGameOverScreen(crashInfo):
         playerSurface = pygame.transform.rotate(IMAGES['player'][1], playerRot)
         SCREEN.blit(playerSurface, (playerx, playery))
         SCREEN.blit(IMAGES['gameover'], (50, 180))
+        SCREEN.blit(mediumFont.render('Press SpaceBar', 0, COLOR_ACTIVE), (30, 250))
+        SCREEN.blit(mediumFont.render('To Play Again', 0, COLOR_ACTIVE), (50, 300))
 
         FPSCLOCK.tick(FPS)
         pygame.display.update()

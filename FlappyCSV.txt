@@ -4,3 +4,21 @@
 { "name": "mayu","email":"mayu@svrobotics","school":"dumbschool","phone_number": "911","first_score":"10","second_score":"15"}
 { "index": { "_type": "users", "_id": "glenn911" } }
 { "name": "mayu","email":"mayu@svrobotics","school":"dumbschool","phone_number": "911","first_score":"10","second_score":"15"}
+{ "index": { "_type": "users", "_id": "Glenn416-233-9939" } }
+{ "name": "Glenn","email":"glennpatrickmurphy@gmail.com","school":"McGill","phone_number": "416-233-9939","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Glenn416-233-9939" } }
+{ "name": "Glenn","email":"glenn@svrobotics.ca","school":"Mcgill","phone_number": "416-233-9939","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "2123" } }
+{ "name": "21","email":"@","school":"23","phone_number": "23","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "das34324" } }
+{ "name": "das","email":"@","school":"3423","phone_number": "34324","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "qwe34" } }
+{ "name": "qwe","email":"@","school":"dfs","phone_number": "34","first_score":"2","second_score":"0"}
+{ "index": { "_type": "users", "_id": "23" } }
+{ "name": "2","email":"@","school":"ere","phone_number": "3","first_score":"0","second_score":"18"}
+{ "index": { "_type": "users", "_id": "dfas534" } }
+{ "name": "dfas","email":"@","school":"dgfdgfs","phone_number": "534","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "qew32" } }
+{ "name": "qew","email":"@","school":"24","phone_number": "32","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "rrgf23" } }
+{ "name": "rrgf","email":"@","school":"gfdgfs","phone_number": "23","first_score":"1","second_score":"0"}
