@@ -22,3 +22,9 @@
 { "name": "qew","email":"@","school":"24","phone_number": "32","first_score":"0","second_score":"1"}
 { "index": { "_type": "users", "_id": "rrgf23" } }
 { "name": "rrgf","email":"@","school":"gfdgfs","phone_number": "23","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "mayu9321092" } }
+{ "name": "mayu","email":"@","school":"mskdn","phone_number": "9321092","first_score":"2","second_score":"1"}
+{ "index": { "_type": "users", "_id": "kdsajf		3" } }
+{ "name": "kdsajf		","email":"@","school":"dumbschool","phone_number": "3","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "yuri2" } }
+{ "name": "yuri","email":"@","school":"smartschool","phone_number": "2","first_score":"0","second_score":"11"}

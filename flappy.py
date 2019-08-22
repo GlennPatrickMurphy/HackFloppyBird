@@ -4,7 +4,7 @@ import sys
 import os
 import pygame
 from pygame.locals import *
-import pygbutton.pygbutton as pygbutton
+import pygbutton as pygbutton
 import api
 
 pygame.init()
@@ -182,20 +182,11 @@ def main():
     global mediumFont
     global smallFont
 
-    global playerFlapAcc,playerMaxVelY,pipeVelX,playerVelRot
-    playerFlapAcc = -9  # players speed on flapping
-    playerMaxVelY = 10
-    pipeVelX = -4
-    playerVelRot = 3  # angular speed
-
-    largeFont = pygame.font.Font(
-        os.path.join("res", "fonts", 'D:\\Github\\FlapPyBird\\assets\\sprites\\FlappyBirdy.ttf'),
+    largeFont = pygame.font.Font('FlappyBirdy.ttf',
         90)
-    mediumFont = pygame.font.Font(
-        os.path.join("res", "fonts", 'D:\\Github\\FlapPyBird\\assets\\sprites\\FlappyBirdy.ttf'),
+    mediumFont = pygame.font.Font('FlappyBirdy.ttf',
         60)
-    smallFont = pygame.font.Font(
-        os.path.join("res", "fonts", 'D:\\Github\\FlapPyBird\\assets\\sprites\\FlappyBirdy.ttf'),
+    smallFont = pygame.font.Font('FlappyBirdy.ttf',
         40)
 
     # numbers sprites for score display
@@ -232,6 +223,13 @@ def main():
     SOUNDS['wing']   = pygame.mixer.Sound('assets/audio/wing' + soundExt)
 
     while True:
+
+        global playerFlapAcc, playerMaxVelY, pipeVelX, playerVelRot
+        playerFlapAcc = -9  # players speed on flapping
+        playerMaxVelY = 10
+        pipeVelX = -4
+        playerVelRot = 3  # angular speed
+
         # select random background sprites
         IMAGES['background'] = pygame.image.load(BACKGROUNDS_LIST[0]).convert()
 
