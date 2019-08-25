@@ -6,7 +6,7 @@ import json
 class Api:
 
     def __init__(self, payload, key):
-        self.url = 'https://PKG5VhCFQ:e9c8f809-7d96-4207-84cc-4b49c47f767c@scalr.api.appbase.io/sv_instructor/'
+        self.url = 'https:/#####@scalr.api.appbase.io/sv_instructor/'
         url = self.url + "_bulk"
         payload = "{ \"index\": { \"_type\": \"users\", \"_id\": \"" + key + "\" } }\n" \
                   "{ \"name\": \"" + str(payload['name']) + "\"," \
