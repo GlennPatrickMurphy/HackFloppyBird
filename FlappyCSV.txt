@@ -28,3 +28,741 @@
 { "name": "kdsajf		","email":"@","school":"dumbschool","phone_number": "3","first_score":"0","second_score":"0"}
 { "index": { "_type": "users", "_id": "yuri2" } }
 { "name": "yuri","email":"@","school":"smartschool","phone_number": "2","first_score":"0","second_score":"11"}
+{ "index": { "_type": "users", "_id": "daniel zhao6478937768" } }
+{ "name": "daniel zhao","email":"flora_wen@hotmail.com","school":"william berczy","phone_number": "6478937768","first_score":"1","second_score":"15"}
+{ "index": { "_type": "users", "_id": "pg6478041892" } }
+{ "name": "pg","email":"pragiethsuresh@gmail.com","school":"mount joy","phone_number": "6478041892","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "vinush6479209144" } }
+{ "name": "vinush","email":"vinushvijitharan@gmail.com","school":"bur oak","phone_number": "6479209144","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "v6969696966" } }
+{ "name": "v","email":"v@gmail.com","school":"8","phone_number": "6969696966","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "daniel zhao6478937768" } }
+{ "name": "daniel zhao","email":"flora_wen@hotmail.com","school":"william berczy","phone_number": "6478937768","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "daniel zhao6478937768" } }
+{ "name": "daniel zhao","email":"flora_wen@hotmail.com","school":"william berczy","phone_number": "6478937768","first_score":"0","second_score":"12"}
+{ "index": { "_type": "users", "_id": "daniel zhao6478937768" } }
+{ "name": "daniel zhao","email":"flora_wen@hotmail.com","school":"william berczy","phone_number": "6478937768","first_score":"1","second_score":"5"}
+{ "index": { "_type": "users", "_id": "daniel zhao5" } }
+{ "name": "daniel zhao","email":"420@","school":"memes","phone_number": "5","first_score":"2","second_score":"37"}
+{ "index": { "_type": "users", "_id": "daniel zhao09" } }
+{ "name": "daniel zhao","email":"ree@","school":"rfe","phone_number": "09","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "daniel zhao4983" } }
+{ "name": "daniel zhao","email":"3@","school":"gq","phone_number": "4983","first_score":"2","second_score":"14"}
+{ "index": { "_type": "users", "_id": "daniel76" } }
+{ "name": "daniel","email":"532@","school":"iuewqgf","phone_number": "76","first_score":"1","second_score":"6"}
+{ "index": { "_type": "users", "_id": "daniel zhao872634" } }
+{ "name": "daniel zhao","email":"e3531@","school":"iuqrf","phone_number": "872634","first_score":"1","second_score":"4"}
+{ "index": { "_type": "users", "_id": "daniel zhao654" } }
+{ "name": "daniel zhao","email":"53@","school":"f","phone_number": "654","first_score":"0","second_score":"143"}
+{ "index": { "_type": "users", "_id": "pg6969696" } }
+{ "name": "pg","email":"ekjfdshg@","school":"m","phone_number": "6969696","first_score":"3","second_score":"9"}
+{ "index": { "_type": "users", "_id": "pg69696" } }
+{ "name": "pg","email":"fjfjsg@","school":"m","phone_number": "69696","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "pg6969966" } }
+{ "name": "pg","email":"dkgdgjdsgl@","school":"m","phone_number": "6969966","first_score":"2","second_score":"1"}
+{ "index": { "_type": "users", "_id": "v 905592198" } }
+{ "name": "v ","email":"v@gmail.com","school":"v","phone_number": "905592198","first_score":"1","second_score":"9"}
+{ "index": { "_type": "users", "_id": "vv905" } }
+{ "name": "vv","email":"v@gmail.com","school":"v","phone_number": "905","first_score":"0","second_score":"5"}
+{ "index": { "_type": "users", "_id": "g6479209144" } }
+{ "name": "g","email":"gg@g.com","school":"vin","phone_number": "6479209144","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "vv905" } }
+{ "name": "vv","email":"v@v.com","school":"v","phone_number": "905","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":" v@","school":"v","phone_number": "905","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": " vv905" } }
+{ "name": " vv","email":"v@","school":"v","phone_number": "905","first_score":"1","second_score":"5"}
+{ "index": { "_type": "users", "_id": "v920" } }
+{ "name": "v","email":"v@","school":"v","phone_number": "920","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "bvg647" } }
+{ "name": "bvg","email":"bhb@","school":"v","phone_number": "647","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "daniel64" } }
+{ "name": "daniel","email":"tex@","school":"iytf","phone_number": "64","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ak4167264414" } }
+{ "name": "ak","email":"akshayan.exe@gmail.com","school":"westhill","phone_number": "4167264414","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Damon4162437671" } }
+{ "name": "Damon","email":"lamauto2@yahoo.ca","school":"Weston CI","phone_number": "4162437671","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Damon4162437671" } }
+{ "name": "Damon","email":"lamauto2@yahoo.ca","school":"Weston CI","phone_number": "4162437671","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "michael6476863782" } }
+{ "name": "michael","email":"kimtrang872005@gmail.com","school":"stanley public school","phone_number": "6476863782","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Damon4162437671" } }
+{ "name": "Damon","email":"lamauto2@yahoo.ca","school":"Weston CI","phone_number": "4162437671","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Jason Lin4167323930" } }
+{ "name": "Jason Lin","email":"mynuongtruong@gmail.com","school":"Weston CI","phone_number": "4167323930","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "4167323930" } }
+{ "name": "","email":"mynuongtruong@gmail.com","school":"Weston CI","phone_number": "4167323930","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Jason4167323930" } }
+{ "name": "Jason","email":"mynuongtruong@gmail.com","school":"Weston CI","phone_number": "4167323930","first_score":"0","second_score":"7"}
+{ "index": { "_type": "users", "_id": "Jason4167323930" } }
+{ "name": "Jason","email":"mynuongtruong61@gmail.com","school":"Weston CI","phone_number": "4167323930","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "r1" } }
+{ "name": "r","email":"@","school":"w","phone_number": "1","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Jason 4167323930" } }
+{ "name": "Jason ","email":"mynuontruong61@gmail.com","school":"Weston CI","phone_number": "4167323930","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":"v@","school":"v","phone_number": "905","first_score":"0","second_score":"16"}
+{ "index": { "_type": "users", "_id": "pg69696" } }
+{ "name": "pg","email":"tjrlkjtre@","school":"m","phone_number": "69696","first_score":"0","second_score":"13"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":"v@","school":"v","phone_number": "905","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "v90" } }
+{ "name": "v","email":"v@","school":"h","phone_number": "90","first_score":"3","second_score":"1"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":"v@","school":"v","phone_number": "905","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":"v@","school":"v","phone_number": "905","first_score":"0","second_score":"20"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":"v@","school":"v","phone_number": "905","first_score":"1","second_score":"15"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":"v@","school":"v","phone_number": "905","first_score":"2","second_score":"5"}
+{ "index": { "_type": "users", "_id": "v905" } }
+{ "name": "v","email":"v@","school":"V","phone_number": "905","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "BV905" } }
+{ "name": "BV","email":"V@","school":"BV","phone_number": "905","first_score":"0","second_score":"13"}
+{ "index": { "_type": "users", "_id": "V9" } }
+{ "name": "V","email":"v@","school":"V","phone_number": "9","first_score":"1","second_score":"3"}
+{ "index": { "_type": "users", "_id": "V905" } }
+{ "name": "V","email":"V@","school":"V","phone_number": "905","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "V998" } }
+{ "name": "V","email":"V@","school":"V","phone_number": "998","first_score":"0","second_score":"16"}
+{ "index": { "_type": "users", "_id": "Brandon Brown9053325259" } }
+{ "name": "Brandon Brown","email":"d.a.brown@cogeco.ca","school":"orchard park public","phone_number": "9053325259","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Brandon Brown9053325259" } }
+{ "name": "Brandon Brown","email":"d.a.brown@cogeco.ca","school":"ochard park public","phone_number": "9053325259","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "maria pelliccia416-886-1360" } }
+{ "name": "maria pelliccia","email":"m_pelliccia@hotmail.com","school":"islington","phone_number": "416-886-1360","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "m pell416-886-1360" } }
+{ "name": "m pell","email":"mpell@hotmail.com","school":"islington","phone_number": "416-886-1360","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "f23213" } }
+{ "name": "f","email":"@","school":"e2wf","phone_number": "23213","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "@ff2131" } }
+{ "name": "@","email":"2\@","school":"2e","phone_number": "ff2131","first_score":"0","second_score":"6"}
+{ "index": { "_type": "users", "_id": "s21dscs" } }
+{ "name": "s","email":"@21","school":"cdc ","phone_number": "21dscs","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "f1234132" } }
+{ "name": "f","email":"@","school":"tw","phone_number": "1234132","first_score":"0","second_score":"9"}
+{ "index": { "_type": "users", "_id": "Mar32164324" } }
+{ "name": "Mar","email":"@","school":"KEPS","phone_number": "32164324","first_score":"0","second_score":"33"}
+{ "index": { "_type": "users", "_id": "lucy liu6476228488" } }
+{ "name": "lucy liu","email":"lucieeeliu@gmail.com","school":"mcmaster","phone_number": "6476228488","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "natalie9054726138" } }
+{ "name": "natalie","email":"smsgx4@gmail.com","school":"reesor park","phone_number": "9054726138","first_score":"1","second_score":"8"}
+{ "index": { "_type": "users", "_id": "francesco amianto+39 3318961462" } }
+{ "name": "francesco amianto","email":"yugino@alice.it","school":"alba international school","phone_number": "+39 3318961462","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "francesco amianto+39 0172635404" } }
+{ "name": "francesco amianto","email":"yugino@alice.it","school":"alba international school","phone_number": "+39 0172635404","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "francesco+39 3318961462" } }
+{ "name": "francesco","email":"yugino@alice.it","school":"alba international school","phone_number": "+39 3318961462","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "glenn2" } }
+{ "name": "glenn","email":"@","school":"e ","phone_number": "2","first_score":"1","second_score":"7"}
+{ "index": { "_type": "users", "_id": "vinushsaid@" } }
+{ "name": "vinush","email":"said@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nbjhjhkhj@" } }
+{ "name": "nbjhjhkhj","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "rvffffr@" } }
+{ "name": "rvffffr","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "dsffdsfds@" } }
+{ "name": "dsffdsfds","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "ffdsfff@" } }
+{ "name": "ffdsfff","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "dfadafsfd@" } }
+{ "name": "dfadafsfd","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "kolby grantdanipeck@hotmail.com" } }
+{ "name": "kolby grant","email":"danipeck@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "weewe@" } }
+{ "name": "weewe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "greggmanmarsh@hotmail.ca" } }
+{ "name": "greg","email":"gmanmarsh@hotmail.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "greggmanmarsh@hotmail.ca" } }
+{ "name": "greg","email":"gmanmarsh@hotmail.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "greggmanmarsh@hotmail.ca" } }
+{ "name": "greg","email":"gmanmarsh@hotmail.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "greggmanmarsh@hotmail.ca" } }
+{ "name": "greg","email":"gmanmarsh@hotmail.ca","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "gg@g.com" } }
+{ "name": "g","email":"g@g.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "erica vasconcelosericavasconcelos226@gmail.com" } }
+{ "name": "erica vasconcelos","email":"ericavasconcelos226@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "glenn@" } }
+{ "name": "glenn","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"10"}
+{ "index": { "_type": "users", "_id": "erica@" } }
+{ "name": "erica","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"11"}
+{ "index": { "_type": "users", "_id": "bob760576@pdsb.net" } }
+{ "name": "bob","email":"760576@pdsb.net","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "bob760576@pdsb.net" } }
+{ "name": "bob","email":"760576@pdsb.net","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "bob760576@pdsb.net" } }
+{ "name": "bob","email":"760576@pdsb.net","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"0"}
+{ "index": { "_type": "users", "_id": "bob760576@pdsb.net " } }
+{ "name": "bob","email":"760576@pdsb.net ","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nathannathan.kuindersma@gmail.com" } }
+{ "name": "nathan","email":"nathan.kuindersma@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "elianaeliana.kuindersma@gmail.com" } }
+{ "name": "eliana","email":"eliana.kuindersma@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "eliana@" } }
+{ "name": "eliana","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "ryker watson mcgawRykermcgaw@gmail.com" } }
+{ "name": "ryker watson mcgaw","email":"Rykermcgaw@gmail.com","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ananyahharsharajiv@gmail.com" } }
+{ "name": "ananyah","email":"harsharajiv@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ananyahharsharajiv@gmail.com " } }
+{ "name": "ananyah","email":"harsharajiv@gmail.com ","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ananyahharsharajiv@gmail.com" } }
+{ "name": "ananyah","email":"harsharajiv@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ananyahharsharajiv@gmail.com" } }
+{ "name": "ananyah","email":"harsharajiv@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ananyahharsharajiv@gmail.com" } }
+{ "name": "ananyah","email":"harsharajiv@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "ChloeChloeay14@gmail.com" } }
+{ "name": "Chloe","email":"Chloeay14@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "ChloeChloeay14@gmail.com" } }
+{ "name": "Chloe","email":"Chloeay14@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Chloe Chloeay14@gmail.com" } }
+{ "name": "Chloe ","email":"Chloeay14@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "chloe@" } }
+{ "name": "chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe ayoung cheeChloeay14@gmail.com" } }
+{ "name": "Chloe ayoung chee","email":"Chloeay14@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"5"}
+{ "index": { "_type": "users", "_id": "Chloe@" } }
+{ "name": "Chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "chloe@" } }
+{ "name": "chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "chloe@" } }
+{ "name": "chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "chloe@" } }
+{ "name": "chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "chloe@" } }
+{ "name": "chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "chloe@" } }
+{ "name": "chloe","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "Chloe @" } }
+{ "name": "Chloe ","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "cHLOE @" } }
+{ "name": "cHLOE ","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "CHLOE@" } }
+{ "name": "CHLOE","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "CHLOE@" } }
+{ "name": "CHLOE","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Austin gramlingcintronyolanda7@gmail.com" } }
+{ "name": "Austin gramling","email":"cintronyolanda7@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "jackchrissywallbank@gmail.com" } }
+{ "name": "jack","email":"chrissywallbank@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"18"}
+{ "index": { "_type": "users", "_id": "anish@" } }
+{ "name": "anish","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "@@" } }
+{ "name": "@","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "@@" } }
+{ "name": "@","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "@@" } }
+{ "name": "@","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "2@" } }
+{ "name": "2","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "@@" } }
+{ "name": "@","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "@@" } }
+{ "name": "@","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "2@" } }
+{ "name": "2","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Sheldon Diasgrets29@hotmail.com" } }
+{ "name": "Sheldon Dias","email":"grets29@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Sheldon grets29@hotmail.com" } }
+{ "name": "Sheldon ","email":"grets29@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"13"}
+{ "index": { "_type": "users", "_id": "Eashani Wadhwaeashaniloveschocolate@gmail.com" } }
+{ "name": "Eashani Wadhwa","email":"eashaniloveschocolate@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Eashani Wadhwa@" } }
+{ "name": "Eashani Wadhwa","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Eashani Wadhwa@" } }
+{ "name": "Eashani Wadhwa","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Eashani@" } }
+{ "name": "Eashani","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"11"}
+{ "index": { "_type": "users", "_id": "aryan	damini_m@hotmail.com" } }
+{ "name": "aryan	","email":"damini_m@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "aryandamini_m@hotmail.com" } }
+{ "name": "aryan","email":"damini_m@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Joseph Nicolasdaisynicolas@rogers.com" } }
+{ "name": "Joseph Nicolas","email":"daisynicolas@rogers.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"19"}
+{ "index": { "_type": "users", "_id": "Joseph Nicolas@" } }
+{ "name": "Joseph Nicolas","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "Joseph Nicolas@" } }
+{ "name": "Joseph Nicolas","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Gavin Leungrhlleung@gmail.com" } }
+{ "name": "Gavin Leung","email":"rhlleung@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Gavin Leungrhlleung@gmail.com" } }
+{ "name": "Gavin Leung","email":"rhlleung@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Gavin Leungrhlleung@gmail.com" } }
+{ "name": "Gavin Leung","email":"rhlleung@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "matthewsorley.matt@icloud.com" } }
+{ "name": "matthew","email":"sorley.matt@icloud.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "matthewsorley.mat@icloud.com" } }
+{ "name": "matthew","email":"sorley.mat@icloud.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "matthesorley.matt@icloud.com" } }
+{ "name": "matthe","email":"sorley.matt@icloud.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "matthewsorley.matt@icloyud.com" } }
+{ "name": "matthew","email":"sorley.matt@icloyud.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"8"}
+{ "index": { "_type": "users", "_id": "matthewsorley.matt@icloud.com" } }
+{ "name": "matthew","email":"sorley.matt@icloud.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "matthewsorley.matt@icloud.com" } }
+{ "name": "matthew","email":"sorley.matt@icloud.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"26"}
+{ "index": { "_type": "users", "_id": "matthewsorley.matt@icloud.com" } }
+{ "name": "matthew","email":"sorley.matt@icloud.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "maayamaayatalks@gmail.com" } }
+{ "name": "maaya","email":"maayatalks@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "maayamaayatalks@gmail.com" } }
+{ "name": "maaya","email":"maayatalks@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Chad Chaddingtonluigivsmario9@gmail.com" } }
+{ "name": "Chad Chaddington","email":"luigivsmario9@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Abdullahabdullahdaguy@gmail.com" } }
+{ "name": "Abdullah","email":"abdullahdaguy@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Abdullah Khanabdulahdaguy@gmail.com" } }
+{ "name": "Abdullah Khan","email":"abdulahdaguy@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Aisha@" } }
+{ "name": "Aisha","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Aisha@" } }
+{ "name": "Aisha","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Jon Richjonathanritchie1@yahoo.ca" } }
+{ "name": "Jon Rich","email":"jonathanritchie1@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "JRjonathanritchie1@yahoo.ca" } }
+{ "name": "JR","email":"jonathanritchie1@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"14"}
+{ "index": { "_type": "users", "_id": "JRjonathanritchie1@yahoo.ca" } }
+{ "name": "JR","email":"jonathanritchie1@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"3","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Jonathan Ritchiejonathanritchie1@yahoo.ca" } }
+{ "name": "Jonathan Ritchie","email":"jonathanritchie1@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"6"}
+{ "index": { "_type": "users", "_id": "Jonathanjonathanritchie1@yahoo.ca" } }
+{ "name": "Jonathan","email":"jonathanritchie1@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Jonathanjonathanritchie1@yahoo.ca" } }
+{ "name": "Jonathan","email":"jonathanritchie1@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Carolinecycaroline@yahoo.com" } }
+{ "name": "Caroline","email":"cycaroline@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"3"}
+{ "index": { "_type": "users", "_id": "Reeyareeyajanvi@gmail.com" } }
+{ "name": "Reeya","email":"reeyajanvi@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "merrie ella clarke wardjessenclarke@gmail.com" } }
+{ "name": "merrie ella clarke ward","email":"jessenclarke@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "merrie ella clarke-wardjessenclarke@gmail.com" } }
+{ "name": "merrie ella clarke-ward","email":"jessenclarke@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Leif@" } }
+{ "name": "Leif","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "leif@" } }
+{ "name": "leif","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "leif@" } }
+{ "name": "leif","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ccxx@v.com" } }
+{ "name": "cc","email":"xx@v.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Benjamindionne.hastings@gmail.com" } }
+{ "name": "Benjamin","email":"dionne.hastings@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Benjamin@" } }
+{ "name": "Benjamin","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Benjamin@" } }
+{ "name": "Benjamin","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Chrischrislibardo@gmail.com" } }
+{ "name": "Chris","email":"chrislibardo@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "PAULpauljurisich2013@outlook.com" } }
+{ "name": "PAUL","email":"pauljurisich2013@outlook.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "luke@" } }
+{ "name": "luke","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "luke@" } }
+{ "name": "luke","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "willwill.ly2101@gmail.com" } }
+{ "name": "will","email":"will.ly2101@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Giridhargiridhar.kaushik@gmail.com" } }
+{ "name": "Giridhar","email":"giridhar.kaushik@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Giridhargiridhar.kaushik@gmail.com" } }
+{ "name": "Giridhar","email":"giridhar.kaushik@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Madeleinegrace.madeleine@icloud.co" } }
+{ "name": "Madeleine","email":"grace.madeleine@icloud.co","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Madeleinegrace.madeleine@icloud.com" } }
+{ "name": "Madeleine","email":"grace.madeleine@icloud.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"3"}
+{ "index": { "_type": "users", "_id": "jia chauhan shilpadhamija@gmail.com" } }
+{ "name": "jia chauhan ","email":"shilpadhamija@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "jai@" } }
+{ "name": "jai","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "j@" } }
+{ "name": "j","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "j@" } }
+{ "name": "j","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ja@" } }
+{ "name": "j","email":"a@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "rb\@" } }
+{ "name": "rb\","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "rb@" } }
+{ "name": "rb","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "rb	@" } }
+{ "name": "rb	","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "casslavender-twlight@hotmail.com" } }
+{ "name": "cass","email":"lavender-twlight@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "Joshuarinnexjoshua@gmail.com" } }
+{ "name": "Joshua","email":"rinnexjoshua@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "joshua@" } }
+{ "name": "joshua","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"14"}
+{ "index": { "_type": "users", "_id": "joshua@" } }
+{ "name": "joshua","email":"@","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Alexshynkarenko.alex@gmail.com" } }
+{ "name": "Alex","email":"shynkarenko.alex@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Alexshynkarenko.alex@gmail.com " } }
+{ "name": "Alex","email":"shynkarenko.alex@gmail.com ","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Marvin Patal	marvsp001@yahoo.com" } }
+{ "name": "Marvin Patal	","email":"marvsp001@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Marvin@" } }
+{ "name": "Marvin","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "jamie@" } }
+{ "name": "jamie","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "zacharysdoi0705@yahoo.ca" } }
+{ "name": "zachary","email":"sdoi0705@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "zacharysdoi0705@yahoo.ca" } }
+{ "name": "zachary","email":"sdoi0705@yahoo.ca","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Anne Huaaliceleidd@gmail.com" } }
+{ "name": "Anne Hua","email":"aliceleidd@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Anne Huaaliceleidd@gmail.com" } }
+{ "name": "Anne Hua","email":"aliceleidd@gmail.com","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Nicole Hannicolehan04@gmail.com" } }
+{ "name": "Nicole Han","email":"nicolehan04@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "h@" } }
+{ "name": "h","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Evan Bartlett-Kisbysarek200@rogers.com" } }
+{ "name": "Evan Bartlett-Kisby","email":"sarek200@rogers.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Evan Bartlett-Kisbysarek200@rogers.com" } }
+{ "name": "Evan Bartlett-Kisby","email":"sarek200@rogers.com","school":"n/a","phone_number": "n/a","first_score":"4","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Evan Bartlett-Kisbysarek200@rogers.com" } }
+{ "name": "Evan Bartlett-Kisby","email":"sarek200@rogers.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"4"}
+{ "index": { "_type": "users", "_id": "ellisbreakdancej@yahoo.com" } }
+{ "name": "ellis","email":"breakdancej@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ellisbreakdancej@yahoo.com" } }
+{ "name": "ellis","email":"breakdancej@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ellisbreakdancej@yahoo.com" } }
+{ "name": "ellis","email":"breakdancej@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ellisbreakdancej@yahoo.com" } }
+{ "name": "ellis","email":"breakdancej@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ellis@" } }
+{ "name": "ellis","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Emilyversigca@gmail.com" } }
+{ "name": "Emily","email":"versigca@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Emily@" } }
+{ "name": "Emily","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Emily@" } }
+{ "name": "Emily","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Emily@" } }
+{ "name": "Emily","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Emily@" } }
+{ "name": "Emily","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Emily@" } }
+{ "name": "Emily","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Emily@" } }
+{ "name": "Emily","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "person@" } }
+{ "name": "person","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "@@" } }
+{ "name": "@","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Sahari@@" } }
+{ "name": "Sahari@","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"22"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"27"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"3"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"5"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"33"}
+{ "index": { "_type": "users", "_id": "daniel@" } }
+{ "name": "daniel","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "daniel@" } }
+{ "name": "daniel","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "daniel@" } }
+{ "name": "daniel","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "daniel@" } }
+{ "name": "daniel","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Dmitri Zaitsevdmitri.z@shaw.ca" } }
+{ "name": "Dmitri Zaitsev","email":"dmitri.z@shaw.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "gvg@" } }
+{ "name": "gvg","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "ww@.ca" } }
+{ "name": "w","email":"w@.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "w@" } }
+{ "name": "w","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"2"}
+{ "index": { "_type": "users", "_id": "basharbsharwrdh@gmail.com" } }
+{ "name": "bashar","email":"bsharwrdh@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "basharbsharwrdh@gmail.com" } }
+{ "name": "bashar","email":"bsharwrdh@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "basharbsharwrdh@gmail.com" } }
+{ "name": "bashar","email":"bsharwrdh@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "bashar	bsharwrdh@gmail.com	bsharwrdh@gmail.com" } }
+{ "name": "bashar	bsharwrdh@gmail.com	","email":"bsharwrdh@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Jonathan Laejonathanrlae@gmail.com" } }
+{ "name": "Jonathan Lae","email":"jonathanrlae@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "testtest@" } }
+{ "name": "test","email":"test@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "Bravean Ketheeswaran@" } }
+{ "name": "Bravean Ketheeswaran","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Me@" } }
+{ "name": "Me","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Bravean@" } }
+{ "name": "Bravean","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Bravean@" } }
+{ "name": "Bravean","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"19"}
+{ "index": { "_type": "users", "_id": "Ben Chungbenw029@hotmail.com" } }
+{ "name": "Ben Chung","email":"benw029@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Ben Chungbenw029@hotmail.com" } }
+{ "name": "Ben Chung","email":"benw029@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Ben Chungbenw029@hotmail.com" } }
+{ "name": "Ben Chung","email":"benw029@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"18"}
+{ "index": { "_type": "users", "_id": "Ben Chungbenw029@hotmail.com" } }
+{ "name": "Ben Chung","email":"benw029@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"14"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"19"}
+{ "index": { "_type": "users", "_id": "Sahari@" } }
+{ "name": "Sahari","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "S@" } }
+{ "name": "S","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"22"}
+{ "index": { "_type": "users", "_id": "S@" } }
+{ "name": "S","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"7"}
+{ "index": { "_type": "users", "_id": "cassidy@" } }
+{ "name": "cassidy","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "CASSIDY@" } }
+{ "name": "CASSIDY","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "OLIVIA@" } }
+{ "name": "OLIVIA","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "dsdfd@" } }
+{ "name": "dsdfd","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Jake Marionjake25@live.ca" } }
+{ "name": "Jake Marion","email":"jake25@live.ca","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Jake Marionjake25@live.ca" } }
+{ "name": "Jake Marion","email":"jake25@live.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"6"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "chris downchris-down@live.com" } }
+{ "name": "chris down","email":"chris-down@live.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Jaster@" } }
+{ "name": "Jaster","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "J@" } }
+{ "name": "J","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "J@" } }
+{ "name": "J","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "J@" } }
+{ "name": "J","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "J@" } }
+{ "name": "J","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "J@" } }
+{ "name": "J","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "J@" } }
+{ "name": "J","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "J@" } }
+{ "name": "J","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"8"}
+{ "index": { "_type": "users", "_id": "creed!@" } }
+{ "name": "creed","email":"!@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "creed@" } }
+{ "name": "creed","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "creed@" } }
+{ "name": "creed","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "creed@" } }
+{ "name": "creed","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "creed@" } }
+{ "name": "creed","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"5"}
+{ "index": { "_type": "users", "_id": "nolan murphysean.sue@bell.net" } }
+{ "name": "nolan murphy","email":"sean.sue@bell.net","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "nolan murphy@gmail.com" } }
+{ "name": "nolan murphy","email":"@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "nolanglennsucks@gmail.com" } }
+{ "name": "nolan","email":"glennsucks@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "puppies@" } }
+{ "name": "puppies","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"4"}
+{ "index": { "_type": "users", "_id": "t@" } }
+{ "name": "t","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"5"}
+{ "index": { "_type": "users", "_id": "t@" } }
+{ "name": "t","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "t@" } }
+{ "name": "t","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "t@" } }
+{ "name": "t","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Yume Yamamotoyamamot.o.svnz@gmail.com" } }
+{ "name": "Yume Yamamoto","email":"yamamot.o.svnz@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Yume Yamamotoyamamot.o.svnz@gmail.com" } }
+{ "name": "Yume Yamamoto","email":"yamamot.o.svnz@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Yume Yamamotoyamamot.o.svnz@gmail.com" } }
+{ "name": "Yume Yamamoto","email":"yamamot.o.svnz@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Yume Yamamotoyamamot.o.svnz@gmail.com" } }
+{ "name": "Yume Yamamoto","email":"yamamot.o.svnz@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Yume Yyamamot.o.svnz@gmail.com" } }
+{ "name": "Yume Y","email":"yamamot.o.svnz@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "yyamamot.o.svnz@gmail.com" } }
+{ "name": "y","email":"yamamot.o.svnz@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "hi@" } }
+{ "name": "hi","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Keely poopypantsnope@no.ca" } }
+{ "name": "Keely poopypants","email":"nope@no.ca","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "poop@" } }
+{ "name": "poop","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "S@" } }
+{ "name": "S","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"9"}
+{ "index": { "_type": "users", "_id": "S@" } }
+{ "name": "S","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"7"}
+{ "index": { "_type": "users", "_id": "S@" } }
+{ "name": "S","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "S@" } }
+{ "name": "S","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "tenzin jordensostomo@yahoo.com" } }
+{ "name": "tenzin jorden","email":"sostomo@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "gephel kogyaljigme248@yahoo.com" } }
+{ "name": "gephel kogyal","email":"jigme248@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Gracegrace.234@gmail.com" } }
+{ "name": "Grace","email":"grace.234@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"7"}
+{ "index": { "_type": "users", "_id": "Grace@" } }
+{ "name": "Grace","email":"@","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"0"}
+{ "index": { "_type": "users", "_id": "vfdsf		@" } }
+{ "name": "vfdsf		","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "lior@" } }
+{ "name": "lior","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "lior@" } }
+{ "name": "lior","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "lior@" } }
+{ "name": "lior","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Emily Cao@" } }
+{ "name": "Emily Cao","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Cathy@" } }
+{ "name": "Cathy","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "Cathy	@" } }
+{ "name": "Cathy	","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "m@" } }
+{ "name": "m","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "jazib @" } }
+{ "name": "jazib ","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "aamna@" } }
+{ "name": "aamna","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ashleyms.yukil2008@gmail.com" } }
+{ "name": "ashley","email":"ms.yukil2008@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "ashleyms.yukil2008@gmail.com" } }
+{ "name": "ashley","email":"ms.yukil2008@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ashley@" } }
+{ "name": "ashley","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "ashleyms.yukil2008@gmail.com" } }
+{ "name": "ashley","email":"ms.yukil2008@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ashleyms.yukil2008@gmail.com" } }
+{ "name": "ashley","email":"ms.yukil2008@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "ashleyms.yukil2008@gmail.com" } }
+{ "name": "ashley","email":"ms.yukil2008@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Victor Kwanvictorkwan1206@yahoo.com" } }
+{ "name": "Victor Kwan","email":"victorkwan1206@yahoo.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "vvictorkwan1@gmail.com" } }
+{ "name": "v","email":"victorkwan1@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ajxandersixx@gmail.com" } }
+{ "name": "aj","email":"xandersixx@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "ajxandersixx@gmail.com" } }
+{ "name": "aj","email":"xandersixx@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Avaxandersixx@gmail.com" } }
+{ "name": "Ava","email":"xandersixx@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"7"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"13"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nayan@" } }
+{ "name": "nayan","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nayan@" } }
+{ "name": "nayan","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nayan@ " } }
+{ "name": "nayan","email":"@ ","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nayan@" } }
+{ "name": "nayan","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nayan@" } }
+{ "name": "nayan","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "n@" } }
+{ "name": "n","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "nayan@" } }
+{ "name": "nayan","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nayan@" } }
+{ "name": "nayan","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "naym@" } }
+{ "name": "naym","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nayan@ " } }
+{ "name": "nayan","email":"@ ","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "n@ " } }
+{ "name": "n","email":"@ ","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"4"}
+{ "index": { "_type": "users", "_id": "h@" } }
+{ "name": "h","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "x@" } }
+{ "name": "x","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "nh@ " } }
+{ "name": "nh","email":"@ ","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"13"}
+{ "index": { "_type": "users", "_id": "jarvispoo@pee" } }
+{ "name": "jarvis","email":"poo@pee","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "kian@" } }
+{ "name": "kian","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"2"}
+{ "index": { "_type": "users", "_id": "Ywala.dolce.vita8@live.com" } }
+{ "name": "Ywa","email":"la.dolce.vita8@live.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Aarohanalolikan@gmail.com" } }
+{ "name": "Aarohan","email":"alolikan@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Aarohanalolikan@gmail.com" } }
+{ "name": "Aarohan","email":"alolikan@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "Aarohanalolikan@gmail.com" } }
+{ "name": "Aarohan","email":"alolikan@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "hiji@gmail.com" } }
+{ "name": "hi","email":"ji@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "hh@gmail.com" } }
+{ "name": "h","email":"h@gmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"0"}
+{ "index": { "_type": "users", "_id": "phill swiftjoe@you" } }
+{ "name": "phill swift","email":"joe@you","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}
+{ "index": { "_type": "users", "_id": "pohi@" } }
+{ "name": "po","email":"hi@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"8"}
+{ "index": { "_type": "users", "_id": "Ethan Lauetholau07@gmail.com" } }
+{ "name": "Ethan Lau","email":"etholau07@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "Ethanetholau07@gmail.com" } }
+{ "name": "Ethan","email":"etholau07@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "ethanetholau07@gmail.com" } }
+{ "name": "ethan","email":"etholau07@gmail.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"3"}
+{ "index": { "_type": "users", "_id": "mm@" } }
+{ "name": "mm","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"4"}
+{ "index": { "_type": "users", "_id": "mayuran852@gmail.com" } }
+{ "name": "","email":"mayuran852@gmail.com","school":"n/a","phone_number": "n/a","first_score":"2","second_score":"0"}
+{ "index": { "_type": "users", "_id": "shumssweet_s93@hotmail.com" } }
+{ "name": "shums","email":"sweet_s93@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "shumssweet_93@hotmail.com" } }
+{ "name": "shums","email":"sweet_93@hotmail.com","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"1"}
+{ "index": { "_type": "users", "_id": "loganLoganvv11@icloud.com" } }
+{ "name": "logan","email":"Loganvv11@icloud.com","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "alex@" } }
+{ "name": "alex","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"1"}
+{ "index": { "_type": "users", "_id": "alex@" } }
+{ "name": "alex","email":"@","school":"n/a","phone_number": "n/a","first_score":"1","second_score":"12"}
+{ "index": { "_type": "users", "_id": "r@" } }
+{ "name": "r","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"2"}
+{ "index": { "_type": "users", "_id": "UB@" } }
+{ "name": "UB","email":"@","school":"n/a","phone_number": "n/a","first_score":"0","second_score":"0"}

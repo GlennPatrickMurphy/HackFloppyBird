@@ -270,7 +270,7 @@ def main():
                    'school': movementInfo['school']
                    }
 
-        key = payload['name']+payload['phone_number']
+        key = payload['name']+payload['email']
 
         crashInfo = mainGame(movementInfo)
 
@@ -312,9 +312,7 @@ def showWelcomeAnimation():
 
     input_box1 = InputBox(50, 150, 50, 32, 'Full Name')
     input_box2 = InputBox(50, 200, 140, 32, 'Parents Email')
-    input_box3 = InputBox(50, 250, 140, 32, 'Home Phone #')
-    input_box4 = InputBox(50, 300, 140, 32, 'School')
-    input_boxes = [input_box1, input_box2, input_box3, input_box4]
+    input_boxes = [input_box1, input_box2]
     buttonObj = pygbutton.PygButton((100, 350, 100, 30), 'Start')
     while True:
         for event in pygame.event.get():
@@ -344,8 +342,8 @@ def showWelcomeAnimation():
                         'playerIndexGen': playerIndexGen,
                         'name':input_box1.text,
                         'email':input_box2.text,
-                        'phone':input_box3.text,
-                        'school':input_box4.text
+                        'phone':'n/a',
+                        'school':'n/a'
                     }
 
             for box in input_boxes:
@@ -594,11 +592,14 @@ def mainGame(movementInfo):
             if event.type == QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
                 pygame.quit()
                 sys.exit()
+
             if event.type == KEYDOWN:
                 if playery > -2 * IMAGES['player'][0].get_height():
                     playerVelY = playerFlapAcc
                     playerFlapped = True
                     SOUNDS['wing'].play()
+
+
 
         # check for crash here
         crashTest = checkCrash({'x': playerx, 'y': playery, 'index': playerIndex},
